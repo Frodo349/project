@@ -1,0 +1,148 @@
+*{
+  box-sizing: border-box;
+}
+a,
+h1,h2,h3,
+p{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.wrap{
+  max-width: 1322px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+ 
+ 
+}
+.container-nav{
+  padding: 0 15px;
+  max-width: 1322px;
+  width: 100%;
+  height: 100%;
+  height: auto;
+}
+.header{
+  padding-top: 40px;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background-image: url('../image/fon.jpg') ;
+  height: 785px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.nav-menu a{
+  color: rgba(115, 115, 115, 1);
+  margin-bottom: 40px;
+}
+.block-two {
+  width: 104px;
+}
+.block-three {
+  width: 525px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.block-four {
+  width: 372px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.block-five{
+  width: 276px;
+}
+.nav-tools{
+  margin-right: 10px;
+}
+.nav-tools:last-child{
+  margin-right: 0;
+}
+.block-six{
+  width: 56px;
+}
+.block-seven {
+  width: 23px;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1076px;
+  width: 100%;
+}
+.header-text {
+  width: 509px; 
+}
+.text-one {
+color: #252B42;
+font-weight: 900;
+Font-size: 58px;
+Line-height: 65px;
+Line-height: 100%;
+align-items: Left;
+Vertical-align: Top;
+Letter-spacing: 0.2px;
+}
+.text-four {
+  color: #737373;
+ Font-style: Medium;
+Font-size: 20px;
+Line-height: 30px;
+Line-height: 123%;
+align-items: Left;
+Vertical-align: Top;
+Letter-spacing: 0.2px;
+}
+.container_header-wrap-content {
+display: flex;
+align-items: center;
+justify-content: space-between;
+  padding: 0 15px;
+  max-width: 1076px;
+  width: 100%;
+}
+
+.photo-agent {
+  max-width: 565px;
+  height: auto;
+}
+.photo-agent img{
+  width: 100%;
+  height: 100%;
+}
+
+.left-button {
+background-color: #784F33;
+color: white;
+Padding: 10px 36px 10px 36px;
+border-radius: 32px;
+border: 1px solid;
+
+}
+.right-button {
+  border: 1px solid #784F33 ;
+  color: #784F33;
+  Padding: 10px 36px 10px 36px;
+  background-color: transparent;
+  border-radius: 32px;
+}
